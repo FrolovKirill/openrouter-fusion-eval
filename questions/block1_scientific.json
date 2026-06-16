@@ -1,0 +1,37 @@
+[
+  {
+    "id": "sci-01",
+    "block": "scientific",
+    "title": "Battery energy density claim",
+    "prompt": "A startup claims their lithium-sulfur battery achieves 800 Wh/kg at room temperature with <10% capacity loss over 1000 cycles. Evaluate: (1) Is this plausible given the current state of the field? (2) What are the most likely ways this claim is misleading or cherry-picked? (3) What key evidence is missing before taking this seriously?",
+    "expected_answer": null
+  },
+  {
+    "id": "sci-02",
+    "block": "scientific",
+    "title": "Direct air capture cost claim",
+    "prompt": "A research team claims they've developed a direct air capture material that removes CO₂ at $50/ton with 95% efficiency using only solar energy, scalable to gigatons/year. Critically evaluate: what would need to be true for this to hold, what are the most likely failure modes, and what questions would you ask before believing it?",
+    "expected_answer": null
+  },
+  {
+    "id": "sci-03",
+    "block": "scientific",
+    "title": "mRNA liver therapy hypothesis gaps",
+    "prompt": "A pharma company proposes using mRNA in lipid nanoparticles to treat liver fibrosis by encoding an anti-fibrotic enzyme. Identify: (1) the key scientific gaps in this approach, (2) regulatory hurdles they haven't mentioned, (3) the most dangerous unstated assumption they're likely making.",
+    "expected_answer": null
+  },
+  {
+    "id": "sci-04",
+    "block": "scientific",
+    "title": "Neuromorphic chip efficiency claim",
+    "prompt": "A semiconductor startup claims their neuromorphic chip achieves 1000x better energy efficiency than NVIDIA H100 for transformer inference at equivalent throughput for 70B parameter models. What would you need to see in their technical documentation to take this seriously? What are the top 3 ways such claims typically fall apart under scrutiny?",
+    "expected_answer": null
+  },
+  {
+    "id": "sci-05",
+    "block": "scientific",
+    "title": "Gene drive ecological deployment",
+    "prompt": "Researchers propose releasing a CRISPR-based gene drive to eliminate malaria-carrying Anopheles gambiae mosquitoes in sub-Saharan Africa. The drive uses a 'daisy-chain' mechanism for geographic confinement. Evaluate: what are the key technical risks, what ecological unknowns should concern us most, and what would a responsible deployment protocol look like?",
+    "expected_answer": null
+  }
+]

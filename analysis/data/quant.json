@@ -1,0 +1,591 @@
+{
+  "run_id": "20260615_202451",
+  "caller": "qwen/qwen3-235b-a22b-2507",
+  "total_cost_usd": 14.7281,
+  "elapsed_s": 3356,
+  "n_questions": 23,
+  "configs": {
+    "C1_west_closed": {
+      "cost": {
+        "n": 23,
+        "sum": 4.414,
+        "mean": 0.1919,
+        "median": 0.1706,
+        "min": 0.0618,
+        "max": 0.4066
+      },
+      "latency_s": {
+        "n": 23,
+        "sum": 5651.7,
+        "mean": 245.7261,
+        "median": 215.1,
+        "min": 68.7,
+        "max": 695.7
+      },
+      "prompt_tokens": {
+        "n": 23,
+        "sum": 368387,
+        "mean": 16016.8261,
+        "median": 16786,
+        "min": 9351,
+        "max": 23947
+      },
+      "completion_tokens": {
+        "n": 23,
+        "sum": 64305,
+        "mean": 2795.8696,
+        "median": 2431,
+        "min": 1342,
+        "max": 5028
+      },
+      "retries_total": 6,
+      "cost_per_block": {
+        "scientific": 0.1835,
+        "factual": 0.1636,
+        "contested": 0.2738
+      },
+      "struct_extracted": 23,
+      "responses_present": 23,
+      "structural": {
+        "coverage": 0.88,
+        "contradiction_rate": 0.609,
+        "blind_spot_rate": 1.0,
+        "unique_rate": 0.957,
+        "avg_contradictions": 1.7,
+        "avg_blind_spots": 5.17,
+        "avg_consensus": 2.91
+      },
+      "factual_grade": {
+        "correct": 13,
+        "partial": 0,
+        "wrong": 0,
+        "n": 13,
+        "accuracy": 1.0
+      }
+    },
+    "C2_cn_open": {
+      "cost": {
+        "n": 23,
+        "sum": 2.8031,
+        "mean": 0.1219,
+        "median": 0.1036,
+        "min": 0.0351,
+        "max": 0.2396
+      },
+      "latency_s": {
+        "n": 23,
+        "sum": 6176.7,
+        "mean": 268.5522,
+        "median": 247.9,
+        "min": 90.0,
+        "max": 505.3
+      },
+      "prompt_tokens": {
+        "n": 23,
+        "sum": 526514,
+        "mean": 22891.913,
+        "median": 19876,
+        "min": 7208,
+        "max": 45046
+      },
+      "completion_tokens": {
+        "n": 23,
+        "sum": 73055,
+        "mean": 3176.3043,
+        "median": 2384,
+        "min": 855,
+        "max": 9814
+      },
+      "retries_total": 1,
+      "cost_per_block": {
+        "scientific": 0.1823,
+        "contested": 0.2102,
+        "factual": 0.0647
+      },
+      "struct_extracted": 23,
+      "responses_present": 22,
+      "structural": {
+        "coverage": 0.913,
+        "contradiction_rate": 0.652,
+        "blind_spot_rate": 1.0,
+        "unique_rate": 1.0,
+        "avg_contradictions": 1.17,
+        "avg_blind_spots": 4.13,
+        "avg_consensus": 3.3
+      },
+      "factual_grade": {
+        "correct": 12,
+        "partial": 1,
+        "wrong": 0,
+        "n": 13,
+        "accuracy": 0.962
+      }
+    },
+    "C5_smartpanel_dumbjudge": {
+      "cost": {
+        "n": 23,
+        "sum": 2.8125,
+        "mean": 0.1223,
+        "median": 0.1137,
+        "min": 0.0138,
+        "max": 0.2423
+      },
+      "latency_s": {
+        "n": 23,
+        "sum": 8338.2,
+        "mean": 362.5304,
+        "median": 363.8,
+        "min": 104.2,
+        "max": 844.9
+      },
+      "prompt_tokens": {
+        "n": 23,
+        "sum": 554208,
+        "mean": 24096,
+        "median": 21556,
+        "min": 8088,
+        "max": 50908
+      },
+      "completion_tokens": {
+        "n": 23,
+        "sum": 119687,
+        "mean": 5203.7826,
+        "median": 6202,
+        "min": 1099,
+        "max": 12004
+      },
+      "retries_total": 0,
+      "cost_per_block": {
+        "scientific": 0.2015,
+        "contested": 0.2079,
+        "factual": 0.0589
+      },
+      "struct_extracted": 23,
+      "responses_present": 21,
+      "structural": {
+        "coverage": 0.848,
+        "contradiction_rate": 0.565,
+        "blind_spot_rate": 0.913,
+        "unique_rate": 0.913,
+        "avg_contradictions": 1.43,
+        "avg_blind_spots": 3.43,
+        "avg_consensus": 3.13
+      },
+      "factual_grade": {
+        "correct": 13,
+        "partial": 0,
+        "wrong": 0,
+        "n": 13,
+        "accuracy": 1.0
+      }
+    },
+    "C5inv_dumbpanel_smartjudge": {
+      "cost": {
+        "n": 23,
+        "sum": 2.0612,
+        "mean": 0.0896,
+        "median": 0.0864,
+        "min": 0.0162,
+        "max": 0.1744
+      },
+      "latency_s": {
+        "n": 23,
+        "sum": 5312.7,
+        "mean": 230.987,
+        "median": 235.4,
+        "min": 74.3,
+        "max": 401.1
+      },
+      "prompt_tokens": {
+        "n": 23,
+        "sum": 434533,
+        "mean": 18892.7391,
+        "median": 18234,
+        "min": 11263,
+        "max": 29434
+      },
+      "completion_tokens": {
+        "n": 23,
+        "sum": 87486,
+        "mean": 3803.7391,
+        "median": 3604,
+        "min": 1831,
+        "max": 6482
+      },
+      "retries_total": 3,
+      "cost_per_block": {
+        "scientific": 0.1231,
+        "factual": 0.059,
+        "contested": 0.1358
+      },
+      "struct_extracted": 23,
+      "responses_present": 18,
+      "structural": {
+        "coverage": 0.967,
+        "contradiction_rate": 0.87,
+        "blind_spot_rate": 1.0,
+        "unique_rate": 1.0,
+        "avg_contradictions": 2.39,
+        "avg_blind_spots": 5.87,
+        "avg_consensus": 4.22
+      },
+      "factual_grade": {
+        "correct": 12,
+        "partial": 1,
+        "wrong": 0,
+        "n": 13,
+        "accuracy": 0.962
+      }
+    },
+    "C6_echo": {
+      "cost": {
+        "n": 23,
+        "sum": 1.2154,
+        "mean": 0.0528,
+        "median": 0.0555,
+        "min": 0.0113,
+        "max": 0.1036
+      },
+      "latency_s": {
+        "n": 23,
+        "sum": 7861.7,
+        "mean": 341.813,
+        "median": 239.1,
+        "min": 42.2,
+        "max": 1248.2
+      },
+      "prompt_tokens": {
+        "n": 23,
+        "sum": 780385,
+        "mean": 33929.7826,
+        "median": 28839,
+        "min": 6576,
+        "max": 139582
+      },
+      "completion_tokens": {
+        "n": 23,
+        "sum": 119215,
+        "mean": 5183.2609,
+        "median": 3500,
+        "min": 634,
+        "max": 20188
+      },
+      "retries_total": 0,
+      "cost_per_block": {
+        "scientific": 0.0552,
+        "factual": 0.0448,
+        "contested": 0.0713
+      },
+      "struct_extracted": 23,
+      "responses_present": 20,
+      "structural": {
+        "coverage": 0.848,
+        "contradiction_rate": 0.609,
+        "blind_spot_rate": 0.913,
+        "unique_rate": 0.87,
+        "avg_contradictions": 1.09,
+        "avg_blind_spots": 3.57,
+        "avg_consensus": 4.04
+      },
+      "factual_grade": {
+        "correct": 12,
+        "partial": 1,
+        "wrong": 0,
+        "n": 13,
+        "accuracy": 0.962
+      }
+    },
+    "C3_cn_small": {
+      "cost": {
+        "n": 23,
+        "sum": 1.0746,
+        "mean": 0.0467,
+        "median": 0.0376,
+        "min": 0.0136,
+        "max": 0.0886
+      },
+      "latency_s": {
+        "n": 23,
+        "sum": 8655.4,
+        "mean": 376.3217,
+        "median": 321.7,
+        "min": 137.0,
+        "max": 937.9
+      },
+      "prompt_tokens": {
+        "n": 23,
+        "sum": 421768,
+        "mean": 18337.7391,
+        "median": 17295,
+        "min": 8080,
+        "max": 48288
+      },
+      "completion_tokens": {
+        "n": 23,
+        "sum": 93233,
+        "mean": 4053.6087,
+        "median": 3398,
+        "min": 1015,
+        "max": 17866
+      },
+      "retries_total": 5,
+      "cost_per_block": {
+        "factual": 0.0299,
+        "contested": 0.0696,
+        "scientific": 0.0675
+      },
+      "struct_extracted": 23,
+      "responses_present": 23,
+      "structural": {
+        "coverage": 0.891,
+        "contradiction_rate": 0.565,
+        "blind_spot_rate": 1.0,
+        "unique_rate": 1.0,
+        "avg_contradictions": 1.09,
+        "avg_blind_spots": 3.3,
+        "avg_consensus": 2.78
+      },
+      "factual_grade": {
+        "correct": 12,
+        "partial": 1,
+        "wrong": 0,
+        "n": 13,
+        "accuracy": 0.962
+      }
+    },
+    "B_cn": {
+      "cost": {
+        "n": 23,
+        "sum": 0.065,
+        "mean": 0.0028,
+        "median": 0.0023,
+        "min": 0.0002,
+        "max": 0.0099
+      },
+      "latency_s": {
+        "n": 23,
+        "sum": 568.1,
+        "mean": 24.7,
+        "median": 23.7,
+        "min": 1.9,
+        "max": 65.0
+      },
+      "prompt_tokens": {
+        "n": 23,
+        "sum": 1303,
+        "mean": 56.6522,
+        "median": 57,
+        "min": 23,
+        "max": 86
+      },
+      "completion_tokens": {
+        "n": 23,
+        "sum": 25184,
+        "mean": 1094.9565,
+        "median": 1147,
+        "min": 41,
+        "max": 3058
+      },
+      "retries_total": 0,
+      "cost_per_block": {
+        "factual": 0.0013,
+        "scientific": 0.0061,
+        "contested": 0.0034
+      },
+      "struct_extracted": 0,
+      "responses_present": 0
+    },
+    "B_west": {
+      "cost": {
+        "n": 23,
+        "sum": 0.2824,
+        "mean": 0.0123,
+        "median": 0.013,
+        "min": 0.0,
+        "max": 0.0211
+      },
+      "latency_s": {
+        "n": 23,
+        "sum": 487.5,
+        "mean": 21.1957,
+        "median": 29.4,
+        "min": 1.5,
+        "max": 48.7
+      },
+      "prompt_tokens": {
+        "n": 23,
+        "sum": 1367,
+        "mean": 59.4348,
+        "median": 60,
+        "min": 26,
+        "max": 90
+      },
+      "completion_tokens": {
+        "n": 23,
+        "sum": 21754,
+        "mean": 945.8261,
+        "median": 1500,
+        "min": 44,
+        "max": 1745
+      },
+      "retries_total": 0,
+      "cost_per_block": {
+        "factual": 0.0071,
+        "scientific": 0.0169,
+        "contested": 0.0211
+      },
+      "struct_extracted": 0,
+      "responses_present": 0
+    }
+  },
+  "legend": {
+    "C1_west_closed": {
+      "panel": [
+        "openai/gpt-5.2",
+        "google/gemini-3.1-pro-preview",
+        "x-ai/grok-4.3"
+      ],
+      "judge": "openai/gpt-5.2",
+      "single": null,
+      "note": "западный закрытый фронтир"
+    },
+    "C2_cn_open": {
+      "panel": [
+        "deepseek/deepseek-v4-pro",
+        "z-ai/glm-5.1",
+        "moonshotai/kimi-k2.6"
+      ],
+      "judge": "qwen/qwen3-235b-a22b-2507",
+      "single": null,
+      "note": "открытый китайский фронтир (умн+умн)"
+    },
+    "C5_smartpanel_dumbjudge": {
+      "panel": [
+        "deepseek/deepseek-v4-pro",
+        "z-ai/glm-5.1",
+        "moonshotai/kimi-k2.6"
+      ],
+      "judge": "qwen/qwen3-8b",
+      "single": null,
+      "note": "умная панель + глупый судья"
+    },
+    "C5inv_dumbpanel_smartjudge": {
+      "panel": [
+        "qwen/qwen3-8b",
+        "google/gemma-3-12b-it",
+        "z-ai/glm-4.7-flash"
+      ],
+      "judge": "z-ai/glm-5.1",
+      "single": null,
+      "note": "глупая панель + умный судья (qwen-2.5-7b → gemma-3-12b-it)"
+    },
+    "C6_echo": {
+      "panel": [
+        "qwen/qwen3-235b-a22b-2507",
+        "qwen/qwen3-235b-a22b-2507",
+        "qwen/qwen3-235b-a22b-2507"
+      ],
+      "judge": "qwen/qwen3-235b-a22b-2507",
+      "single": null,
+      "note": "контроль: эхо-камера"
+    },
+    "C3_cn_small": {
+      "panel": [
+        "qwen/qwen3.6-27b",
+        "z-ai/glm-4.7-flash",
+        "qwen/qwen3-32b"
+      ],
+      "judge": "qwen/qwen3-32b",
+      "single": null,
+      "note": "всё мелкое"
+    },
+    "B_cn": {
+      "panel": null,
+      "judge": null,
+      "single": "deepseek/deepseek-v4-pro",
+      "note": "одиночка-китаец без fusion"
+    },
+    "B_west": {
+      "panel": null,
+      "judge": null,
+      "single": "openai/gpt-5.2",
+      "note": "одиночка-западник без fusion"
+    }
+  },
+  "cost_multipliers": {
+    "C1_west_closed": {
+      "avg_cost_per_q": 0.1919,
+      "x_vs_B_cn": 68.5,
+      "x_vs_B_west": 15.6
+    },
+    "C2_cn_open": {
+      "avg_cost_per_q": 0.1219,
+      "x_vs_B_cn": 43.5,
+      "x_vs_B_west": 9.9
+    },
+    "C5_smartpanel_dumbjudge": {
+      "avg_cost_per_q": 0.1223,
+      "x_vs_B_cn": 43.7,
+      "x_vs_B_west": 9.9
+    },
+    "C5inv_dumbpanel_smartjudge": {
+      "avg_cost_per_q": 0.0896,
+      "x_vs_B_cn": 32.0,
+      "x_vs_B_west": 7.3
+    },
+    "C6_echo": {
+      "avg_cost_per_q": 0.0528,
+      "x_vs_B_cn": 18.9,
+      "x_vs_B_west": 4.3
+    },
+    "C3_cn_small": {
+      "avg_cost_per_q": 0.0467,
+      "x_vs_B_cn": 16.7,
+      "x_vs_B_west": 3.8
+    }
+  },
+  "cost_per_unit": {
+    "C1_west_closed": {
+      "avg_cost": 0.1919,
+      "units_per_q (contr+blind+consensus)": 9.78,
+      "cost_per_unit": 0.0196,
+      "cost_per_contradiction": 0.1129,
+      "cost_per_blind_spot": 0.0371
+    },
+    "C2_cn_open": {
+      "avg_cost": 0.1219,
+      "units_per_q (contr+blind+consensus)": 8.6,
+      "cost_per_unit": 0.0142,
+      "cost_per_contradiction": 0.1042,
+      "cost_per_blind_spot": 0.0295
+    },
+    "C5_smartpanel_dumbjudge": {
+      "avg_cost": 0.1223,
+      "units_per_q (contr+blind+consensus)": 7.99,
+      "cost_per_unit": 0.0153,
+      "cost_per_contradiction": 0.0855,
+      "cost_per_blind_spot": 0.0357
+    },
+    "C5inv_dumbpanel_smartjudge": {
+      "avg_cost": 0.0896,
+      "units_per_q (contr+blind+consensus)": 12.48,
+      "cost_per_unit": 0.0072,
+      "cost_per_contradiction": 0.0375,
+      "cost_per_blind_spot": 0.0153
+    },
+    "C6_echo": {
+      "avg_cost": 0.0528,
+      "units_per_q (contr+blind+consensus)": 8.7,
+      "cost_per_unit": 0.0061,
+      "cost_per_contradiction": 0.0484,
+      "cost_per_blind_spot": 0.0148
+    },
+    "C3_cn_small": {
+      "avg_cost": 0.0467,
+      "units_per_q (contr+blind+consensus)": 7.17,
+      "cost_per_unit": 0.0065,
+      "cost_per_contradiction": 0.0428,
+      "cost_per_blind_spot": 0.0142
+    }
+  }
+}

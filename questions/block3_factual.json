@@ -1,0 +1,106 @@
+[
+  {
+    "id": "fac-01",
+    "block": "factual",
+    "difficulty": "easy",
+    "title": "Monty Hall probability",
+    "prompt": "You're on a game show: 3 doors, one hides a car, two hide goats. You pick door 1. The host (who knows what's behind each door) opens door 3, revealing a goat. You're offered the chance to switch to door 2. Should you switch? What is the exact probability of winning if you switch vs. if you stay? Explain the reasoning.",
+    "expected_answer": "Switch. P(win | switch) = 2/3. P(win | stay) = 1/3."
+  },
+  {
+    "id": "fac-02",
+    "block": "factual",
+    "difficulty": "easy",
+    "title": "First artificial satellite — date",
+    "prompt": "Which country launched the first artificial Earth satellite? What was the satellite called, and on what exact date (day, month, year) was it launched?",
+    "expected_answer": "Soviet Union (USSR). Sputnik 1. October 4, 1957."
+  },
+  {
+    "id": "fac-03",
+    "block": "factual",
+    "difficulty": "easy",
+    "title": "2023 Nobel Prize Physiology or Medicine",
+    "prompt": "Who received the 2023 Nobel Prize in Physiology or Medicine, and for what specific discovery?",
+    "expected_answer": "Katalin Karikó and Drew Weissman. For discoveries of nucleoside base modifications that enabled effective mRNA vaccines against COVID-19."
+  },
+  {
+    "id": "fac-04",
+    "block": "factual",
+    "difficulty": "medium",
+    "title": "Python list slicing",
+    "prompt": "In Python 3, what does `[10, 20, 30, 40, 50][1::2]` evaluate to? Give the exact result and explain step by step how Python computes it.",
+    "expected_answer": "[20, 40]. Start at index 1 (value 20), step 2: picks indices 1, 3 → values 20, 40."
+  },
+  {
+    "id": "fac-05",
+    "block": "factual",
+    "difficulty": "medium",
+    "title": "AlphaFold2 CASP competition",
+    "prompt": "In which year did DeepMind's AlphaFold2 win the CASP competition? What was the edition called, and what median GDT score did it achieve?",
+    "expected_answer": "2020. CASP14. Median GDT score ~92.4 (out of 100)."
+  },
+  {
+    "id": "fac-06",
+    "block": "factual",
+    "difficulty": "medium",
+    "title": "Birthday paradox — exact group sizes",
+    "prompt": "In the birthday paradox (assuming 365 days, uniform distribution): (1) What is the minimum group size where the probability that at least two people share a birthday exceeds 50%? (2) What is the minimum group size for the probability to exceed 99%? Give exact numbers.",
+    "expected_answer": "(1) 23 people: P ≈ 50.7%. (2) 57 people: P ≈ 99.0%."
+  },
+  {
+    "id": "fac-07",
+    "block": "factual",
+    "difficulty": "medium",
+    "title": "Transformer base model architecture",
+    "prompt": "In the original 'Attention Is All You Need' paper (Vaswani et al., 2017): what are the exact architectural parameters of the BASE (not large) Transformer model? Specify: number of encoder layers, number of decoder layers, number of attention heads, and model dimension (d_model).",
+    "expected_answer": "6 encoder layers + 6 decoder layers. 8 attention heads (h=8). d_model = 512."
+  },
+  {
+    "id": "fac-08",
+    "block": "factual",
+    "difficulty": "hard",
+    "title": "Fast inverse square root — actual author",
+    "prompt": "The fast inverse square root algorithm (featuring the magic constant 0x5F3759DF) became famous through Quake III Arena (1999). John Carmack is commonly credited as its author. Who actually devised the algorithm and the magic constant? How was the true authorship established?",
+    "expected_answer": "Greg Walsh devised the algorithm and constant while at Ardent Computer in the late 1980s. The misconception about Carmack was widely spread until 2006, when Walsh himself contacted Beyond3D to confirm his authorship after speculation went viral on Slashdot."
+  },
+  {
+    "id": "fac-09",
+    "block": "factual",
+    "difficulty": "hard",
+    "title": "HTTP/1.1 current defining RFC",
+    "prompt": "HTTP/1.1 was originally defined in RFC 2616 (1999). What RFC currently defines HTTP/1.1 as of 2022–2024? Walk through the succession: what replaced RFC 2616, and what then replaced that?",
+    "expected_answer": "RFC 2616 (1999) was replaced by RFCs 7230–7235 (2014). Those were superseded by RFC 9112 (June 2022), which is the current Internet Standard for HTTP/1.1 (STD 99). HTTP/2 is currently RFC 9113."
+  },
+  {
+    "id": "fac-10",
+    "block": "factual",
+    "difficulty": "hard",
+    "title": "Dengue virus serotypes",
+    "prompt": "How many confirmed serotypes does the dengue virus have? List them by name. Why does secondary infection with a *different* serotype cause more severe disease than the first infection?",
+    "expected_answer": "4 confirmed serotypes: DENV-1, DENV-2, DENV-3, DENV-4. Secondary infection is more severe due to antibody-dependent enhancement (ADE): antibodies from the first infection bind but fail to neutralize the new serotype, instead facilitating viral entry into immune cells (Fc receptor-mediated), amplifying viral load."
+  },
+  {
+    "id": "fac-11",
+    "block": "factual",
+    "difficulty": "hard",
+    "title": "Two's complement 8-bit range",
+    "prompt": "In 8-bit two's complement representation: (1) what is the exact range of representable integers? (2) What is the 8-bit binary representation of the most negative number? (3) Why is there no positive counterpart to the most negative number?",
+    "expected_answer": "(1) -128 to +127. (2) Most negative is -128 = 10000000₂. (3) There are 256 bit patterns total: one is 0, leaving 255 for positive/negative — split as 127 positive and 128 negative. The two's complement of -128 overflows back to -128 (10000000 → invert → 01111111 → +1 → 10000000), so +128 cannot be represented."
+  },
+  {
+    "id": "fac-12",
+    "block": "factual",
+    "difficulty": "very-hard",
+    "title": "Therac-25 root software cause",
+    "prompt": "The Therac-25 radiation therapy machine caused severe overdoses and deaths in 1985–1987 due to a software defect. Describe the specific programming error with the flag variable: what was done wrong, what arithmetic condition caused the safety checks to be bypassed, and how did operator typing speed trigger it?",
+    "expected_answer": "The software set a safety flag by *incrementing* it (flag++) rather than assigning a fixed non-zero value. If the operator typed commands fast enough (within ~8 seconds), a race condition caused the flag to be incremented to 255 and then overflow to 0 on the next increment — making the safety interlock treat the situation as 'no hazard present' and proceed with full-power electron beam without the beam spreader."
+  },
+  {
+    "id": "fac-13",
+    "block": "factual",
+    "difficulty": "very-hard",
+    "title": "Backpropagation 1986 paper",
+    "prompt": "What is the exact title, authors, journal, volume, and page numbers of the foundational 1986 paper that popularized backpropagation for training neural networks?",
+    "expected_answer": "'Learning representations by back-propagating errors'. Authors: David E. Rumelhart, Geoffrey E. Hinton, Ronald J. Williams. Journal: Nature. Volume 323, pages 533–536. Published October 9, 1986. (Note: backprop itself was independently developed earlier by Linnainmaa (1970) and Werbos (1974/1982); this paper popularized it for multi-layer perceptrons.)"
+  }
+]

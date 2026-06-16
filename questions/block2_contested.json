@@ -1,0 +1,37 @@
+[
+  {
+    "id": "con-01",
+    "block": "contested",
+    "title": "AGI timeline and key cruxes",
+    "prompt": "When will artificial general intelligence (AGI) be achieved — and what does 'achieved' even mean? Give a probabilistic estimate with explicit reasoning, identify the top 3 cruxes where experts genuinely disagree, and name the assumptions that most affect the timeline.",
+    "expected_answer": null
+  },
+  {
+    "id": "con-02",
+    "block": "contested",
+    "title": "Nuclear energy in climate transition",
+    "prompt": "Should nuclear power be a central part of the global energy transition to combat climate change, or should resources focus on renewables and storage? Make the strongest case for each position, identify where the real empirical uncertainty lies, and give your overall assessment.",
+    "expected_answer": null
+  },
+  {
+    "id": "con-03",
+    "block": "contested",
+    "title": "Open-source AI frontier models",
+    "prompt": "Should powerful AI models (GPT-4 class and above) be released as open weights? Argue both sides seriously — strongest case for open release and strongest case for restricting it. Where does the empirical evidence actually point, and what would change your mind?",
+    "expected_answer": null
+  },
+  {
+    "id": "con-04",
+    "block": "contested",
+    "title": "Rust vs C++ in systems programming by 2035",
+    "prompt": "Will Rust significantly displace C++ as the primary language for systems programming over the next 10 years? Analyze adoption trends, key structural barriers, who benefits most from switching, and what the realistic landscape looks like in 2035.",
+    "expected_answer": null
+  },
+  {
+    "id": "con-05",
+    "block": "contested",
+    "title": "Psychology replication crisis prognosis",
+    "prompt": "How seriously damaged is psychology as a scientific discipline due to the replication crisis? Is the field recovering, getting worse, or is the crisis overblown? What reforms have actually worked, and what should a researcher or policymaker conclude from this?",
+    "expected_answer": null
+  }
+]
